@@ -1,6 +1,9 @@
 #!/bin/bash
 # Auteur : Pierre Estrem
-# Fonction : lire un fichier, à la volée, sans avoir besoin de l'ouvrir.
+# Fonction : lire un fichier txt, à la volée, sans avoir besoin de l'ouvrir.
+# Pour les fichiers jpg, png, tif, pdf, doc, docx, odt, il faut d'abord les transformer en txt.
+# c'est à cela que sert le script : A-lire-et-obtenir-le-texte
+
 function erreur {
 echo -e "La syntaxe est :\n$0 <fichier_texte> | --help"
 echo ""
